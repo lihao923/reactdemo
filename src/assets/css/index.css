@@ -8,17 +8,27 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 ul, li {
   list-style: none;
 }
 
+.list {
+  line-height: 36px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  color: blue;
 
+}
 
+.box {
+  margin: 20px 0;
+}
 
-
-
-
+.form-group {
+  padding: 10px 0;
+}
